@@ -48,7 +48,7 @@ const ValueView: React.FC<Props> = props => {
         activeOpacity={0.8}
         style={[styles.iconStyle, { paddingRight: 20 }]}
       >
-        <Image source={Res.tuya_decrease} />
+        <Image source={Res.ts_decrease} />
       </TouchableOpacity>
       <View style={styles.line} />
       <Text style={styles.valueStyle}>{value}</Text>
@@ -58,7 +58,7 @@ const ValueView: React.FC<Props> = props => {
         activeOpacity={0.8}
         style={[styles.iconStyle, { paddingLeft: 20 }]}
       >
-        <Image source={Res.tuya_increase} />
+        <Image source={Res.ts_increase} />
       </TouchableOpacity>
     </View>
   );

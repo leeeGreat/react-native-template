@@ -50,7 +50,7 @@ const EnumView: React.FC<Props> = props => {
     <TouchableOpacity style={style} activeOpacity={0.8} onPress={handlePress}>
       <View style={[styles.container, readonly ? { opacity: 0.5 } : null]}>
         <Text style={styles.text}>{selected}</Text>
-        {!readonly && <Image style={styles.icon} source={Res.tuya_select_icon} />}
+        {!readonly && <Image style={styles.icon} source={Res.ts_select_icon} />}
       </View>
     </TouchableOpacity>
   );

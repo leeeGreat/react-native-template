@@ -52,7 +52,7 @@ const StringView: React.FC<Props> = props => {
       </View>
       {!readonly && (
         <TouchableOpacity activeOpacity={0.8} style={styles.button} onPress={handlePress}>
-          <Image source={Res.tuya_goto_icon} />
+          <Image source={Res.ts_goto_icon} />
         </TouchableOpacity>
       )}
     </View>

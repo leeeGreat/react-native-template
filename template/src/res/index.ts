@@ -1,8 +1,8 @@
 /* eslint-disable */
 const button = require('./button.png');
-const tuya_decrease = require('./tuya_decrease.png');
-const tuya_goto_icon = require('./tuya_goto_icon.png');
-const tuya_increase = require('./tuya_increase.png');
-const tuya_select_icon = require('./tuya_select_icon.png');
+const ts_decrease = require('./ts_decrease.png');
+const ts_goto_icon = require('./ts_goto_icon.png');
+const ts_increase = require('./ts_increase.png');
+const ts_select_icon = require('./ts_select_icon.png');
 
-export default { button, tuya_decrease, tuya_goto_icon, tuya_increase, tuya_select_icon };
+export default { button, ts_decrease, ts_goto_icon, ts_increase, ts_select_icon };
